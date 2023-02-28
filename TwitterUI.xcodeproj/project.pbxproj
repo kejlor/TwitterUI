@@ -51,6 +51,7 @@
 		E937440B29AE429500CCD322 /* TwitterUI */ = {
 			isa = PBXGroup;
 			children = (
+				E937441A29AE4CA700CCD322 /* Components */,
 				E937440C29AE429500CCD322 /* TwitterUIApp.swift */,
 				E937440E29AE429500CCD322 /* ContentView.swift */,
 				E937441029AE429500CCD322 /* Assets.xcassets */,
@@ -65,6 +66,13 @@
 				E937441329AE429500CCD322 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E937441A29AE4CA700CCD322 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
