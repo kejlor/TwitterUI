@@ -11,6 +11,16 @@
 		E937440F29AE429500CCD322 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937440E29AE429500CCD322 /* ContentView.swift */; };
 		E937441129AE429500CCD322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E937441029AE429500CCD322 /* Assets.xcassets */; };
 		E937441429AE429500CCD322 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E937441329AE429500CCD322 /* Preview Assets.xcassets */; };
+		E937441D29AE4D5500CCD322 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937441C29AE4D5500CCD322 /* Header.swift */; };
+		E937441F29AE4EE500CCD322 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937441E29AE4EE500CCD322 /* Post.swift */; };
+		E937442129AE546D00CCD322 /* PostButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937442029AE546D00CCD322 /* PostButtons.swift */; };
+		E937442329AE589D00CCD322 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937442229AE589D00CCD322 /* HomeView.swift */; };
+		E937442529AE5C8600CCD322 /* AddCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937442429AE5C8600CCD322 /* AddCircle.swift */; };
+		E937442729AE67DF00CCD322 /* SearchHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937442629AE67DF00CCD322 /* SearchHeader.swift */; };
+		E937442929AE6ACF00CCD322 /* SearchCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937442829AE6ACF00CCD322 /* SearchCategories.swift */; };
+		E937442B29AE6F4500CCD322 /* SearchingBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937442A29AE6F4500CCD322 /* SearchingBanner.swift */; };
+		E937442D29AE71A300CCD322 /* TrendingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937442C29AE71A300CCD322 /* TrendingEntry.swift */; };
+		E937442F29AE762A00CCD322 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937442E29AE762A00CCD322 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		E937440E29AE429500CCD322 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E937441029AE429500CCD322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E937441329AE429500CCD322 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E937441C29AE4D5500CCD322 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		E937441E29AE4EE500CCD322 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		E937442029AE546D00CCD322 /* PostButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostButtons.swift; sourceTree = "<group>"; };
+		E937442229AE589D00CCD322 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E937442429AE5C8600CCD322 /* AddCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCircle.swift; sourceTree = "<group>"; };
+		E937442629AE67DF00CCD322 /* SearchHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeader.swift; sourceTree = "<group>"; };
+		E937442829AE6ACF00CCD322 /* SearchCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCategories.swift; sourceTree = "<group>"; };
+		E937442A29AE6F4500CCD322 /* SearchingBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingBanner.swift; sourceTree = "<group>"; };
+		E937442C29AE71A300CCD322 /* TrendingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingEntry.swift; sourceTree = "<group>"; };
+		E937442E29AE762A00CCD322 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,7 @@
 		E937440B29AE429500CCD322 /* TwitterUI */ = {
 			isa = PBXGroup;
 			children = (
+				E937441B29AE4D4700CCD322 /* Views */,
 				E937441A29AE4CA700CCD322 /* Components */,
 				E937440C29AE429500CCD322 /* TwitterUIApp.swift */,
 				E937440E29AE429500CCD322 /* ContentView.swift */,
@@ -71,8 +92,25 @@
 		E937441A29AE4CA700CCD322 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				E937441C29AE4D5500CCD322 /* Header.swift */,
+				E937441E29AE4EE500CCD322 /* Post.swift */,
+				E937442029AE546D00CCD322 /* PostButtons.swift */,
+				E937442429AE5C8600CCD322 /* AddCircle.swift */,
+				E937442629AE67DF00CCD322 /* SearchHeader.swift */,
+				E937442829AE6ACF00CCD322 /* SearchCategories.swift */,
+				E937442A29AE6F4500CCD322 /* SearchingBanner.swift */,
+				E937442C29AE71A300CCD322 /* TrendingEntry.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		E937441B29AE4D4700CCD322 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E937442229AE589D00CCD322 /* HomeView.swift */,
+				E937442E29AE762A00CCD322 /* SearchView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +184,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E937440F29AE429500CCD322 /* ContentView.swift in Sources */,
+				E937441D29AE4D5500CCD322 /* Header.swift in Sources */,
+				E937442B29AE6F4500CCD322 /* SearchingBanner.swift in Sources */,
+				E937441F29AE4EE500CCD322 /* Post.swift in Sources */,
+				E937442F29AE762A00CCD322 /* SearchView.swift in Sources */,
+				E937442329AE589D00CCD322 /* HomeView.swift in Sources */,
+				E937442729AE67DF00CCD322 /* SearchHeader.swift in Sources */,
+				E937442129AE546D00CCD322 /* PostButtons.swift in Sources */,
 				E937440D29AE429500CCD322 /* TwitterUIApp.swift in Sources */,
+				E937442529AE5C8600CCD322 /* AddCircle.swift in Sources */,
+				E937442929AE6ACF00CCD322 /* SearchCategories.swift in Sources */,
+				E937442D29AE71A300CCD322 /* TrendingEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
