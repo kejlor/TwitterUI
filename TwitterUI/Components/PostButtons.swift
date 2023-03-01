@@ -26,10 +26,8 @@ struct PostButtons: View {
             Button {
                 
             } label: {
-                HStack {
                     Image(systemName: "arrow.2.squarepath")
                         .foregroundColor(.gray)
-                }
             }
             
             Spacer()
