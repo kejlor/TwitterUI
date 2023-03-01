@@ -21,7 +21,7 @@ struct ContentView: View {
                         Image(systemName: "magnifyingglass")
                     }
                 
-                Image(systemName: "mic.circle")
+                TweetView()
                     .tabItem {
                         Image(systemName: "mic.circle")
                     }
@@ -31,7 +31,7 @@ struct ContentView: View {
                         Image(systemName: "bell")
                     }
                 
-                Image(systemName: "envelope")
+                PrivateMessages()
                     .tabItem {
                         Image(systemName: "envelope")
                     }
