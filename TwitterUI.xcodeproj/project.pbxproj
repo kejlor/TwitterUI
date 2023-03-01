@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E915773529AF896C00E719FC /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915773429AF896C00E719FC /* TweetView.swift */; };
+		E915773729AF89AC00E719FC /* TweetMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915773629AF89AC00E719FC /* TweetMain.swift */; };
+		E915773929AF89B700E719FC /* TweetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915773829AF89B700E719FC /* TweetResponse.swift */; };
+		E915773B29AF89C500E719FC /* TweetReply.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915773A29AF89C500E719FC /* TweetReply.swift */; };
+		E915773D29AF8D5100E719FC /* TweetButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915773C29AF8D5100E719FC /* TweetButtons.swift */; };
+		E915773F29AF9A2900E719FC /* PrivateMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915773E29AF9A2900E719FC /* PrivateMessages.swift */; };
+		E915774129AF9A7E00E719FC /* PrivMsgEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915774029AF9A7E00E719FC /* PrivMsgEntry.swift */; };
+		E915774329AF9C6300E719FC /* MessageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915774229AF9C6300E719FC /* MessageButton.swift */; };
+		E915774529AF9D2500E719FC /* MessageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915774429AF9D2500E719FC /* MessageHeader.swift */; };
 		E937440D29AE429500CCD322 /* TwitterUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937440C29AE429500CCD322 /* TwitterUIApp.swift */; };
 		E937440F29AE429500CCD322 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937440E29AE429500CCD322 /* ContentView.swift */; };
 		E937441129AE429500CCD322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E937441029AE429500CCD322 /* Assets.xcassets */; };
@@ -24,6 +33,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E915773429AF896C00E719FC /* TweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetView.swift; sourceTree = "<group>"; };
+		E915773629AF89AC00E719FC /* TweetMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetMain.swift; sourceTree = "<group>"; };
+		E915773829AF89B700E719FC /* TweetResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetResponse.swift; sourceTree = "<group>"; };
+		E915773A29AF89C500E719FC /* TweetReply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetReply.swift; sourceTree = "<group>"; };
+		E915773C29AF8D5100E719FC /* TweetButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetButtons.swift; sourceTree = "<group>"; };
+		E915773E29AF9A2900E719FC /* PrivateMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateMessages.swift; sourceTree = "<group>"; };
+		E915774029AF9A7E00E719FC /* PrivMsgEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivMsgEntry.swift; sourceTree = "<group>"; };
+		E915774229AF9C6300E719FC /* MessageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageButton.swift; sourceTree = "<group>"; };
+		E915774429AF9D2500E719FC /* MessageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageHeader.swift; sourceTree = "<group>"; };
 		E937440929AE429500CCD322 /* TwitterUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E937440C29AE429500CCD322 /* TwitterUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUIApp.swift; sourceTree = "<group>"; };
 		E937440E29AE429500CCD322 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +118,13 @@
 				E937442829AE6ACF00CCD322 /* SearchCategories.swift */,
 				E937442A29AE6F4500CCD322 /* SearchingBanner.swift */,
 				E937442C29AE71A300CCD322 /* TrendingEntry.swift */,
+				E915773629AF89AC00E719FC /* TweetMain.swift */,
+				E915773829AF89B700E719FC /* TweetResponse.swift */,
+				E915773A29AF89C500E719FC /* TweetReply.swift */,
+				E915773C29AF8D5100E719FC /* TweetButtons.swift */,
+				E915774029AF9A7E00E719FC /* PrivMsgEntry.swift */,
+				E915774229AF9C6300E719FC /* MessageButton.swift */,
+				E915774429AF9D2500E719FC /* MessageHeader.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -109,6 +134,8 @@
 			children = (
 				E937442229AE589D00CCD322 /* HomeView.swift */,
 				E937442E29AE762A00CCD322 /* SearchView.swift */,
+				E915773429AF896C00E719FC /* TweetView.swift */,
+				E915773E29AF9A2900E719FC /* PrivateMessages.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,15 +210,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E915773B29AF89C500E719FC /* TweetReply.swift in Sources */,
 				E937440F29AE429500CCD322 /* ContentView.swift in Sources */,
+				E915774529AF9D2500E719FC /* MessageHeader.swift in Sources */,
 				E937441D29AE4D5500CCD322 /* Header.swift in Sources */,
+				E915773529AF896C00E719FC /* TweetView.swift in Sources */,
 				E937442B29AE6F4500CCD322 /* SearchingBanner.swift in Sources */,
+				E915774129AF9A7E00E719FC /* PrivMsgEntry.swift in Sources */,
+				E915773729AF89AC00E719FC /* TweetMain.swift in Sources */,
+				E915774329AF9C6300E719FC /* MessageButton.swift in Sources */,
 				E937441F29AE4EE500CCD322 /* Post.swift in Sources */,
 				E937442F29AE762A00CCD322 /* SearchView.swift in Sources */,
 				E937442329AE589D00CCD322 /* HomeView.swift in Sources */,
+				E915773929AF89B700E719FC /* TweetResponse.swift in Sources */,
 				E937442729AE67DF00CCD322 /* SearchHeader.swift in Sources */,
+				E915773F29AF9A2900E719FC /* PrivateMessages.swift in Sources */,
 				E937442129AE546D00CCD322 /* PostButtons.swift in Sources */,
 				E937440D29AE429500CCD322 /* TwitterUIApp.swift in Sources */,
+				E915773D29AF8D5100E719FC /* TweetButtons.swift in Sources */,
 				E937442529AE5C8600CCD322 /* AddCircle.swift in Sources */,
 				E937442929AE6ACF00CCD322 /* SearchCategories.swift in Sources */,
 				E937442D29AE71A300CCD322 /* TrendingEntry.swift in Sources */,
